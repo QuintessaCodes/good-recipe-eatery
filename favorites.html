@@ -16,13 +16,24 @@
     <main>
         <h1>Tasty Recipes</h1>
         <p>Embark on a culinary journey like no other as you explore our carefully curated collection of recipes. Each dish promises to be a new stop on your taste map, blending traditions, techniques, and ingredients from various cuisines to offer an unforgettable flavor experience. From savory delights to sweet temptations, there's a destination for every palate. <br> <br> Whether you're a passionate home cook or someone just beginning to discover the joys of cooking, our recipes cater to all skill levels. We believe in the magic of a shared meal and the stories it can tell. So, gather your ingredients, don your apron, and let's set sail on this flavor-filled adventure together!</p>
-        <img src="images/quinoa-salad.jpg" alt="a plate of quinoa salad">
+        <img src="images/quinoa-salad.jpg" alt="a plate of quinoa salad" style="object-fit: cover; border-radius: 10px; width: clamp(90vw, 70vw, 50vw); height: 100%;">
+        <!-- explanation of the styles added to the image
+        1. object-fit: cover-> this maintains the aspect ratio of the image while changing its width and height so it doesn't look distorted.
+        2. border-radius-> this adds a bit of curve on the edge of the image to make it look more appealing and not just rectangles.
+        3. clamp in the width -> takes 3 width values for small screen, medium screen and large screen. vw unit means viewport width which means the total width of your screen, be it mobile or laptop. so 90vw means 90% of the screen width. this is similar to vh which is viewport height.
+        *90vw or vh is not same as 90%. 90% means that the element or image would take up 90% of its parent width or height eg
+        <div style="width: 200px;">
+            <img src="" alt="" style="width: 90%;">
+        </div>
+        *the image width would be 90% of 200px which is 180px.
+        4. height: 100%-> lets the image maintain its normal height.
+        -->
         <h2>Spiced Quinoa Salad</h2>
         <p><b>Overview:</b> Dive into a refreshing yet hearty salad that's a perfect blend of tang, spice, and everything nice. Our Spiced Quinoa Salad combines protein-packed quinoa with a melange of crunchy veggies, sweet raisins, and a zesty lemon dressing. Topped off with roasted nuts and feta, it's a delightful dish that's both nutritious and full of flavor. Ideal for those seeking a light lunch or a vibrant side dish. <br><br> <a href="https://www.allrecipes.com" target="_blank">View the recipe</a></p>
-        <img src="images/risotto.jpg" alt="a plate of creamy mushroom risotto">
+        <img src="images/risotto.jpg" alt="a plate of creamy mushroom risotto" style="object-fit: cover; border-radius: 10px; width: clamp(90vw, 70vw, 50vw); height: 100%;">
         <h2>Creamy Mushroom Risotto</h2>
         <p><b>Overview:</b> Indulge in the rich, velvety flavors of our Creamy Mushroom Risotto, a classic Italian delight with a twist. This dish showcases buttery mushrooms sautéed to perfection, enveloped in a creamy Arborio rice blend. Infused with white wine and garnished with fresh parsley and parmesan, it's a comforting meal that warms the soul on any day. <br><br> <a href="https://www.allrecipes.com" target="_blank">View the recipe</a></p>
-        <img src="images/mango-mousse.jpg" alt="a plate of mango mousse">
+        <img src="images/mango-mousse.jpg" alt="a plate of mango mousse" style="object-fit: cover; border-radius: 10px; width: clamp(90vw, 70vw, 50vw); height: 100%;">
         <h2>Coconut Mango Mousse</h2>
         <p><b>Overview:</b> Whisk your taste buds away to a tropical paradise with our Coconut Mango Mousse. This dreamy dessert offers layers of lush mango purée and fluffy coconut cream, creating a symphony of sweet and tangy notes. Garnished with toasted coconut flakes and a sprig of mint, it's the perfect sweet treat for summer days or when you're simply dreaming of a beach escape. <br><br> <a href="https://www.allrecipes.com" target="_blank">View the recipe</a></p>
         <hr>
